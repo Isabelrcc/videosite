@@ -9,3 +9,36 @@ video {
   height: auto;
   display: block;
 }
+
+.headermenu {
+  background-color: #bd9ceb;
+}
+
+.headermenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.headermenu li {
+  margin: 0 20px;
+}
+
+.headermenu a {
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50%;
+  background-color: rgb(109, 127, 209);
+  transition: background-color 0.3s;
+  font-family: "Sigmar", sans-serif;
+}
+
+.headermenu a:hover {
+  background-color: #512b5b;
+}
