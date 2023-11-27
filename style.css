@@ -42,3 +42,9 @@ video {
 .headermenu a:hover {
   background-color: #512b5b;
 }
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
