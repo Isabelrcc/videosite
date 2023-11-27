@@ -7,11 +7,18 @@ img,
 video {
   width: 100%;
   height: auto;
+  background-size: cover;
   display: block;
+  border-radius: 10%;
+}
+
+body {
+  background-color: #c1afdf;
+  padding: 30px;
 }
 
 .headermenu {
-  background-color: #bd9ceb;
+  height: 100px;
 }
 
 .headermenu ul {
@@ -33,14 +40,30 @@ video {
   color: #ffffff;
   display: inline-block;
   padding: 10px 30px;
-  border-radius: 50%;
-  background-color: rgb(109, 127, 209);
+  border-radius: 20%;
+  background-color: rgb(94, 111, 195);
   transition: background-color 0.3s;
   font-family: "Sigmar", sans-serif;
+  box-shadow: -2px 8px 23px 9px rgba(221, 173, 227, 0.79);
+  -webkit-box-shadow: -2px 8px 23px 9px rgba(221, 173, 227, 0.79);
+  -moz-box-shadow: -2px 8px 23px 9px rgba(221, 173, 227, 0.79);
 }
 
 .headermenu a:hover {
   background-color: #512b5b;
+}
+
+.forside {
+  background-color: honeydew;
+  border-radius: 50px;
+  box-shadow: -2px 8px 23px 9px rgba(221, 173, 227, 0.79);
+  -webkit-box-shadow: -2px 8px 23px 9px rgba(221, 173, 227, 0.79);
+  -moz-box-shadow: -2px 8px 23px 9px rgba(221, 173, 227, 0.79);
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
 }
 
 .grid_1 {
